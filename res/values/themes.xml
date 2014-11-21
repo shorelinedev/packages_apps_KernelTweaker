@@ -10,9 +10,9 @@
         <item name="android:listViewStyle">@android:style/Widget.Holo.ListView</item>
     </style>
     
-    <style name="AppLight" parent="android:Theme.Holo.Light.DarkActionBar">
+    <style name="AppLight" parent="android:Theme.Material.Light.DarkActionBar">
         <item name="android:windowBackground">@drawable/screen_background_selector_light</item>
-        <item name="android:listViewStyle">@android:style/Widget.Holo.Light.ListView</item>
+        <item name="android:listViewStyle">@android:style/Widget.Material.Light.ListView</item>
     </style>
     
 </resources>
