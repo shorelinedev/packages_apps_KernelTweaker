@@ -27,6 +27,16 @@
     </PreferenceCategory>
     <PreferenceCategory android:title="Open Source Projects" >
         <Preference android:summary="Some classes and xmls are based on the open source projects listed below." />
+         <com.dsht.kerneltweaker.InfoPreference
+            android:key="key_prime"
+            android:title="Prime"
+            app:image="@drawable/prime"
+            app:button1_text="@string/b1text"
+            app:button2_text="@string/b2text"
+            app:button3_text="@string/b3text"
+            app:button1_link="@string/prime_gplus"
+            app:button2_link="@string/prime_github" 
+            app:button3_link="@string/prime_donate"/>
         <com.dsht.kerneltweaker.InfoPreference
             android:key="key_aicp"
             android:title="AICP"
